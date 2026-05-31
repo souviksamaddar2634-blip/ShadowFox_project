@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Sourav Ganguly",
+    "years": "2008, 2010 (Player/Captain)",
+    "achievement": "The Prince of Calcutta and KKR's first-ever icon player. Dada laid the foundation for the franchise as its first captain and remains an absolute legend of Eden Gardens. He also holds the historic distinction of facing the very first delivery in IPL history.",
+    "stat": "40 Matches · 1,031 Runs · 8 Wickets",
+    "avatar": "images/sourav-ganguly.jpg"
+  },
+  {
+    "name": "Gautam Gambhir",
+    "years": "2011 – 2017 (Player/Captain) · 2024 (Mentor)",
+    "achievement": "The legendary skipper who transformed KKR. Gambhir captained KKR to their first two IPL trophies in 2012 and 2014, and returned as Mentor in 2024 to guide the team to their third title.",
+    "stat": "122 Matches · 3,375 Runs · 2 Titles",
+    "avatar": "images/gautam-gambhir.jpg"
+  },
+  {
+    "name": "Jacques Kallis",
+    "years": "2011 – 2014 (Player) · 2015 – 2019 (Coach)",
+    "achievement": "One of the greatest all-rounders in cricket history. Kallis was KKR's anchor in the 2012 and 2014 championships, scoring crucial half-centuries and taking key wickets.",
+    "stat": "98 Matches · 1,603 Runs · 44 Wickets",
+    "avatar": "images/jacques-kallis.jpg"
+  },
+  {
+    "name": "Robin Uthappa",
+    "years": "2014 – 2019 (Player)",
+    "achievement": "The bedrock of KKR's batting order. Robin won the Orange Cap in 2014 with 660 runs (including a record 10 consecutive 40+ scores), playing a monumental role in securing KKR's second trophy.",
+    "stat": "86 Matches · 2,439 Runs · 2014 Orange Cap",
+    "avatar": "images/robin-uthappa.jpg"
+  },
+  {
+    "name": "Yusuf Pathan",
+    "years": "2011 – 2017 (Player)",
+    "achievement": "The ultimate explosive finisher of the Purple Army. Pathan played countless high-impact innings, including hitting the fastest fifty in IPL history at the time (15 balls vs SRH in 2014).",
+    "stat": "106 Matches · 1,893 Runs · 143.6 S/R",
+    "avatar": "images/yusuf-pathan.jpg"
+  },
+  {
+    "name": "Brendon McCullum",
+    "years": "2008 – 2010, 2012 – 2013 (Player) · 2020 – 2022 (Coach)",
+    "achievement": "The man who started it all. McCullum hit a legendary, unbeaten 158* in the opening match of the inaugural 2008 IPL, writing KKR and the league into global sporting history.",
+    "stat": "35 Matches · 881 Runs · 158* High Score",
+    "avatar": "images/brendon-mccullum.jpg"
+  }
+]

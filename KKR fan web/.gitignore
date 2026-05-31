@@ -1,0 +1,36 @@
+# Environments
+.env
+.env.*
+*.env
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# System / IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+Thumbs.db
+.DS_Store
+
+# Node dependency fallbacks
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,16 @@
+[
+  { "date": "29 MAR 2026", "opp": "Mumbai Indians", "venue": "Wankhede Stadium, Mumbai", "vs": "MI", "status": "lost", "desc": "MI won by 6 wickets", "theme": "background:#001f5b;color:#99cfff;border-color:#3a6abf" },
+  { "date": "02 APR 2026", "opp": "Sunrisers Hyderabad", "venue": "Eden Gardens, Kolkata", "vs": "SRH", "status": "won", "desc": "KKR won by 4 wickets", "theme": "background:#d71920;color:#fff;border-color:#d71920" },
+  { "date": "06 APR 2026", "opp": "Punjab Kings", "venue": "Eden Gardens, Kolkata", "vs": "PBKS", "status": "won", "desc": "KKR won by 18 runs", "theme": "background:#e31937;color:#fff;border-color:#ffd700" },
+  { "date": "09 APR 2026", "opp": "Lucknow Super Giants", "venue": "Eden Gardens, Kolkata", "vs": "LSG", "status": "lost", "desc": "LSG won by 5 wickets", "theme": "background:#1a5276;color:#a3d5f7;border-color:#4ca6d9" },
+  { "date": "14 APR 2026", "opp": "Royal Challengers Bengaluru", "venue": "M. Chinnaswamy Stadium, Bengaluru", "vs": "RCB", "status": "won", "desc": "KKR won by 5 wickets", "theme": "background:#c8102e;color:#fff;border-color:#c8102e" },
+  { "date": "18 APR 2026", "opp": "Delhi Capitals", "venue": "Arun Jaitley Stadium, Delhi", "vs": "DC", "status": "won", "desc": "KKR won by 22 runs", "theme": "background:#004c97;color:#ffd700;border-color:#ffd700" },
+  { "date": "22 APR 2026", "opp": "Rajasthan Royals", "venue": "Eden Gardens, Kolkata", "vs": "RR", "status": "noresult", "desc": "Match washed out due to rain", "theme": "background:#ea1b86;color:#fff;border-color:#004b87" },
+  { "date": "27 APR 2026", "opp": "Chennai Super Kings", "venue": "MA Chidambaram Stadium, Chennai", "vs": "CSK", "status": "lost", "desc": "CSK won by 7 wickets", "theme": "background:#004c97;color:#ffd700;border-color:#ffd700" },
+  { "date": "30 APR 2026", "opp": "Gujarat Titans", "venue": "Narendra Modi Stadium, Ahmedabad", "vs": "GT", "status": "lost", "desc": "GT won by 12 runs", "theme": "background:#0b1d3a;color:#d4af37;border-color:#d4af37" },
+  { "date": "04 MAY 2026", "opp": "Sunrisers Hyderabad", "venue": "Rajiv Gandhi Stadium, Hyderabad", "vs": "SRH", "status": "won", "desc": "KKR won by 7 wickets", "theme": "background:#d71920;color:#fff;border-color:#d71920" },
+  { "date": "08 MAY 2026", "opp": "Royal Challengers Bengaluru", "venue": "Eden Gardens, Kolkata", "vs": "RCB", "status": "won", "desc": "KKR won by 3 wickets", "theme": "background:#c8102e;color:#fff;border-color:#c8102e" },
+  { "date": "13 MAY 2026", "opp": "Chennai Super Kings", "venue": "Eden Gardens, Kolkata", "vs": "CSK", "status": "lost", "desc": "CSK won by 6 wickets", "theme": "background:#004c97;color:#ffd700;border-color:#ffd700" },
+  { "date": "17 MAY 2026", "opp": "Mumbai Indians", "venue": "Eden Gardens, Kolkata", "vs": "MI", "status": "lost", "desc": "MI won by 4 runs", "theme": "background:#001f5b;color:#99cfff;border-color:#3a6abf" },
+  { "date": "24 MAY 2026", "opp": "Delhi Capitals", "venue": "Eden Gardens, Kolkata", "vs": "DC", "status": "lost", "desc": "DC won by 40 runs", "theme": "background:#004c97;color:#ffd700;border-color:#ffd700" }
+]

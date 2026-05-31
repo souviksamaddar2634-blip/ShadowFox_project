@@ -1,0 +1,14 @@
+{
+  "name": "kkr-fan-web",
+  "version": "1.0.0",
+  "description": "KKR Fan Hub - Frontend and Backend",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "npx -y lite-server --baseDir=frontend --port=3000"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

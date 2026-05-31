@@ -1,0 +1,476 @@
+{
+  "Sunil Narine": [
+    {
+      "k": "Matches",
+      "v": "13"
+    },
+    {
+      "k": "Runs",
+      "v": "40"
+    },
+    {
+      "k": "Wickets",
+      "v": "15"
+    },
+    {
+      "k": "S/R",
+      "v": "125.00"
+    }
+  ],
+  "Rahul Tripathi": [
+    {
+      "k": "Matches",
+      "v": "0"
+    },
+    {
+      "k": "Runs",
+      "v": "0"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "S/R",
+      "v": "0.00"
+    }
+  ],
+  "Tim Seifert": [
+    {
+      "k": "Matches",
+      "v": "3"
+    },
+    {
+      "k": "Runs",
+      "v": "19"
+    },
+    {
+      "k": "Stumpings",
+      "v": "1"
+    },
+    {
+      "k": "Catches",
+      "v": "2"
+    }
+  ],
+  "Navdeep Saini": [
+    {
+      "k": "Matches",
+      "v": "2"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "Best",
+      "v": "0"
+    },
+    {
+      "k": "Econ",
+      "v": "12.33"
+    }
+  ],
+  "Rinku Singh": [
+    {
+      "k": "Matches",
+      "v": "14"
+    },
+    {
+      "k": "Runs",
+      "v": "295"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "S/R",
+      "v": "148.99"
+    }
+  ],
+  "Rovman Powell": [
+    {
+      "k": "Matches",
+      "v": "11"
+    },
+    {
+      "k": "Runs",
+      "v": "190"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "S/R",
+      "v": "134.75"
+    }
+  ],
+  "Sarthak Ranjan": [
+    {
+      "k": "Matches",
+      "v": "0"
+    },
+    {
+      "k": "Runs",
+      "v": "0"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "S/R",
+      "v": "0.00"
+    }
+  ],
+  "Finn Allen": [
+    {
+      "k": "Matches",
+      "v": "11"
+    },
+    {
+      "k": "Runs",
+      "v": "349"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "S/R",
+      "v": "214.11"
+    }
+  ],
+  "Rachin Ravindra": [
+    {
+      "k": "Matches",
+      "v": "0"
+    },
+    {
+      "k": "Runs",
+      "v": "0"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "S/R",
+      "v": "0.00"
+    }
+  ],
+  "Cameron Green": [
+    {
+      "k": "Matches",
+      "v": "14"
+    },
+    {
+      "k": "Runs",
+      "v": "322"
+    },
+    {
+      "k": "Wickets",
+      "v": "7"
+    },
+    {
+      "k": "S/R",
+      "v": "145.70"
+    }
+  ],
+  "Ramandeep Singh": [
+    {
+      "k": "Matches",
+      "v": "8"
+    },
+    {
+      "k": "Runs",
+      "v": "82"
+    },
+    {
+      "k": "Wickets",
+      "v": "1"
+    },
+    {
+      "k": "S/R",
+      "v": "120.59"
+    }
+  ],
+  "Anukul Roy": [
+    {
+      "k": "Matches",
+      "v": "14"
+    },
+    {
+      "k": "Runs",
+      "v": "52"
+    },
+    {
+      "k": "Wickets",
+      "v": "9"
+    },
+    {
+      "k": "S/R",
+      "v": "133.33"
+    }
+  ],
+  "Varun Chakaravarthy": [
+    {
+      "k": "Matches",
+      "v": "11"
+    },
+    {
+      "k": "Wickets",
+      "v": "11"
+    },
+    {
+      "k": "Best",
+      "v": "-"
+    },
+    {
+      "k": "Econ",
+      "v": "8.78"
+    }
+  ],
+  "Kartik Tyagi": [
+    {
+      "k": "Matches",
+      "v": "14"
+    },
+    {
+      "k": "Wickets",
+      "v": "18"
+    },
+    {
+      "k": "Best",
+      "v": "-"
+    },
+    {
+      "k": "Econ",
+      "v": "9.76"
+    }
+  ],
+  "Blessing Muzarabani": [
+    {
+      "k": "Matches",
+      "v": "2"
+    },
+    {
+      "k": "Wickets",
+      "v": "4"
+    },
+    {
+      "k": "Best",
+      "v": "-"
+    },
+    {
+      "k": "Econ",
+      "v": "10.71"
+    }
+  ],
+  "Luvnith Sisodia": [
+    {
+      "k": "Matches",
+      "v": "0"
+    },
+    {
+      "k": "Runs",
+      "v": "0"
+    },
+    {
+      "k": "Stumpings",
+      "v": "0"
+    },
+    {
+      "k": "Catches",
+      "v": "0"
+    }
+  ],
+  "Prashant Solanki": [
+    {
+      "k": "Matches",
+      "v": "0"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "Best",
+      "v": "0"
+    },
+    {
+      "k": "Econ",
+      "v": "0.00"
+    }
+  ],
+  "Saurabh Dubey": [
+    {
+      "k": "Matches",
+      "v": "4"
+    },
+    {
+      "k": "Wickets",
+      "v": "5"
+    },
+    {
+      "k": "Best",
+      "v": "-"
+    },
+    {
+      "k": "Econ",
+      "v": "8.26"
+    }
+  ],
+  "Vaibhav Arora": [
+    {
+      "k": "Matches",
+      "v": "11"
+    },
+    {
+      "k": "Wickets",
+      "v": "11"
+    },
+    {
+      "k": "Best",
+      "v": "-"
+    },
+    {
+      "k": "Econ",
+      "v": "10.26"
+    }
+  ],
+  "Umran Malik": [
+    {
+      "k": "Matches",
+      "v": "0"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "Best",
+      "v": "0"
+    },
+    {
+      "k": "Econ",
+      "v": "0.00"
+    }
+  ],
+  "Angkrish Raghuvanshi": [
+    {
+      "k": "Matches",
+      "v": "13"
+    },
+    {
+      "k": "Runs",
+      "v": "422"
+    },
+    {
+      "k": "Stumpings",
+      "v": "1"
+    },
+    {
+      "k": "Catches",
+      "v": "5"
+    }
+  ],
+  "Tejasvi Singh": [
+    {
+      "k": "Matches",
+      "v": "2"
+    },
+    {
+      "k": "Runs",
+      "v": "12"
+    },
+    {
+      "k": "Stumpings",
+      "v": "0"
+    },
+    {
+      "k": "Catches",
+      "v": "1"
+    }
+  ],
+  "Daksh Kamra": [
+    {
+      "k": "Matches",
+      "v": "0"
+    },
+    {
+      "k": "Runs",
+      "v": "0"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "S/R",
+      "v": "0.00"
+    }
+  ],
+  "Ajinkya Rahane": [
+    {
+      "k": "Matches",
+      "v": "14"
+    },
+    {
+      "k": "Runs",
+      "v": "335"
+    },
+    {
+      "k": "Avg",
+      "v": "-"
+    },
+    {
+      "k": "S/R",
+      "v": "135.08"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "Econ",
+      "v": "0.00"
+    },
+    {
+      "k": "Catches",
+      "v": "0"
+    }
+  ],
+  "Manish Pandey": [
+    {
+      "k": "Matches",
+      "v": "6"
+    },
+    {
+      "k": "Runs",
+      "v": "70"
+    },
+    {
+      "k": "Avg",
+      "v": "-"
+    },
+    {
+      "k": "S/R",
+      "v": "142.86"
+    },
+    {
+      "k": "Wickets",
+      "v": "0"
+    },
+    {
+      "k": "Econ",
+      "v": "0.00"
+    },
+    {
+      "k": "Catches",
+      "v": "0"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: kkr-fan-hub-backend
+    env: docker
+    dockerfilePath: backend/Dockerfile
+    dockerContext: backend
+    plan: free
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: DATABASE_NAME
+        value: kkr_fan_hub
+      - key: MONGO_URI
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "60"
+      - key: ALLOWED_ORIGINS
+        value: "https://kkr-fan-hub.vercel.app,https://kkr-fan-hub-frontend.vercel.app,http://localhost:3000"
+      - key: FRONTEND_URL
+        value: "https://kkr-fan-hub.vercel.app"
+      - key: ALLOWED_HOSTS
+        value: "*"

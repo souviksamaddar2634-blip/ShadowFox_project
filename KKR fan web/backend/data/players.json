@@ -1,0 +1,552 @@
+[
+  {
+    "name": "Manish Pandey",
+    "jersey": 9,
+    "role": "Batter",
+    "country": "India",
+    "bio": "A name that has lived rent-free in our minds but could not have a similar impact in the Indian national side. Not taking any dig at this exceptional batter, but he certainly could not reach the limits that everyone...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "6"
+      },
+      {
+        "k": "Runs",
+        "v": "70"
+      },
+      {
+        "k": "S/R",
+        "v": "142.86"
+      }
+    ],
+    "image": "images/manish-pandey.jpg"
+  },
+  {
+    "name": "Ajinkya Rahane",
+    "jersey": 3,
+    "role": "Batter",
+    "country": "India",
+    "bio": "Ajinkya Rahane, a right-handed top-order batter from Mumbai is a perfect combination of talent, consistency and aggression. He made his first-class debut for Mumbai in 2007. In only his second Ranji season, he...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "14"
+      },
+      {
+        "k": "Runs",
+        "v": "335"
+      },
+      {
+        "k": "S/R",
+        "v": "135.08"
+      }
+    ],
+    "image": "images/ajinkya-rahane.jpg"
+  },
+  {
+    "name": "Angkrish Raghuvanshi",
+    "jersey": 18,
+    "role": "Wicketkeeper",
+    "country": "India",
+    "bio": "Angkrish Raghuvanshi is a right-handed batter who bowls left-arm orthodox spin and he represents Mumbai in the Indian domestic circuit. Angkrish Raghuvanshi was born on June 5, 2005 in Delhi.",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "13"
+      },
+      {
+        "k": "Runs",
+        "v": "422"
+      },
+      {
+        "k": "Catches",
+        "v": "5"
+      }
+    ],
+    "image": "images/angkrish-raghuvanshi.jpg"
+  },
+  {
+    "name": "Finn Allen",
+    "jersey": 16,
+    "role": "Batter",
+    "country": "New Zealand",
+    "bio": "New Zealand have produced one of the most destructive openers in Brendon McCullum who terrorised the bowlers throughout his career. Talking about explosive Kiwi openers, Finnley Hugh Allen is...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "11"
+      },
+      {
+        "k": "Runs",
+        "v": "349"
+      },
+      {
+        "k": "S/R",
+        "v": "214.11"
+      }
+    ],
+    "image": "images/finn-allen.jpg"
+  },
+  {
+    "name": "Rinku Singh",
+    "jersey": 35,
+    "role": "Batter",
+    "country": "India",
+    "bio": "Rinku Singh, a left-handed batter from Aligarh, has emerged as a promising talent in Indian cricket, captivating fans with his aggressive batting style and consistent performances. His journey from the...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "14"
+      },
+      {
+        "k": "Runs",
+        "v": "295"
+      },
+      {
+        "k": "S/R",
+        "v": "148.99"
+      }
+    ],
+    "image": "images/rinku-singh.jpg"
+  },
+  {
+    "name": "Rovman Powell",
+    "jersey": 52,
+    "role": "Batter",
+    "country": "Jamaica",
+    "bio": "Rovman Powell is a Jamaican cricketer. He is primarily a middle-order batter and an occasional medium-pace bowler. He has been representing West Indies in ODIs since 2016 but it took him close to five years to secure...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "11"
+      },
+      {
+        "k": "Runs",
+        "v": "190"
+      },
+      {
+        "k": "S/R",
+        "v": "134.75"
+      }
+    ],
+    "image": "images/rovman-powell.jpg"
+  },
+  {
+    "name": "Ramandeep Singh",
+    "jersey": 19,
+    "role": "Batter",
+    "country": "India",
+    "bio": "Ramandeep Singh, born on April 13, 1997, is an Indian cricketer known for his right-handed batting and part-time medium pace. Hailing from Punjab, Ramandeep's journey in cricket exemplifies determination and...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "8"
+      },
+      {
+        "k": "Runs",
+        "v": "82"
+      },
+      {
+        "k": "S/R",
+        "v": "120.59"
+      }
+    ],
+    "image": "images/ramandeep-singh.jpg"
+  },
+  {
+    "name": "Tim Seifert",
+    "jersey": 43,
+    "role": "Wicketkeeper",
+    "country": "New Zealand",
+    "bio": "Explosive with the bat and sharp behind the stumps, Tim Seifert has built a reputation as one of New Zealand's most dynamic wicketkeeper-batters in white-ball cricket. Born in Whanganui in 1994, the right-hander...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "3"
+      },
+      {
+        "k": "Runs",
+        "v": "19"
+      },
+      {
+        "k": "Catches",
+        "v": "2"
+      }
+    ],
+    "image": "images/tim-seifert.jpg"
+  },
+  {
+    "name": "Tejasvi Singh",
+    "jersey": 12,
+    "role": "Wicketkeeper",
+    "country": "India",
+    "bio": "A fearless six-hitter with a flair for dramatic cameos, Tejasvi Singh Dahiya has quickly risen through Delhi's cricketing ranks with his explosive batting and sharp wicketkeeping. A self-confessed fan of Virender...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "2"
+      },
+      {
+        "k": "Runs",
+        "v": "12"
+      },
+      {
+        "k": "Catches",
+        "v": "1"
+      }
+    ],
+    "image": "images/tejasvi-singh.jpg"
+  },
+  {
+    "name": "Sunil Narine",
+    "jersey": 74,
+    "role": "All-Rounder",
+    "country": "West Indies",
+    "bio": "With multiple limited-overs tournaments on the rise across the globe, franchises are in search of mystery spinners who can bowl in the Powerplay as well as provide breakthroughs once the field restrictions are eased.",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "13"
+      },
+      {
+        "k": "Runs",
+        "v": "40"
+      },
+      {
+        "k": "Wickets",
+        "v": "15"
+      }
+    ],
+    "image": "images/sunil-narine.jpg"
+  },
+  {
+    "name": "Cameron Green",
+    "jersey": 42,
+    "role": "All-Rounder",
+    "country": "Australia",
+    "bio": "Cameron Green is a highly promising and versatile cricketer who hails from Australia. He is often regarded as the next best thing in Australian cricket and his unique ability to excel both as a right-handed batter...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "14"
+      },
+      {
+        "k": "Runs",
+        "v": "322"
+      },
+      {
+        "k": "Wickets",
+        "v": "7"
+      }
+    ],
+    "image": "images/cameron-green.jpg"
+  },
+  {
+    "name": "Anukul Roy",
+    "jersey": 6,
+    "role": "All-Rounder",
+    "country": "India",
+    "bio": "Anukul Roy is an emerging star in Indian cricket, renowned for his impactful lower-order batting and skillful left-arm orthodox spin. He first gained attention during the 2018 ICC Under-19 Cricket World Cup, where...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "14"
+      },
+      {
+        "k": "Runs",
+        "v": "52"
+      },
+      {
+        "k": "Wickets",
+        "v": "9"
+      }
+    ],
+    "image": "images/anukul-roy.jpg"
+  },
+  {
+    "name": "Kartik Tyagi",
+    "jersey": 9,
+    "role": "Bowler",
+    "country": "India",
+    "bio": "A young talent with a promising future, Kartik Tyagi, born 8th of November 2000, is a right-arm fast-medium bowler known for his ability to swing the ball both ways. A kid from Hapur, a city in Uttar Pradesh, emerged in the...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "14"
+      },
+      {
+        "k": "Wickets",
+        "v": "18"
+      },
+      {
+        "k": "Econ",
+        "v": "9.76"
+      }
+    ],
+    "image": "images/kartik-tyagi.jpg"
+  },
+  {
+    "name": "Varun Chakaravarthy",
+    "jersey": 29,
+    "role": "Bowler",
+    "country": "India",
+    "bio": "'Mystery' is a word that always brings a sense of excitement with it. In cricket too, mystery bowlers over the years have tormented batters with a sense of anticipation and thrill among the cricketing fraternity.",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "11"
+      },
+      {
+        "k": "Wickets",
+        "v": "11"
+      },
+      {
+        "k": "Econ",
+        "v": "8.78"
+      }
+    ],
+    "image": "images/varun-chakaravarthy.jpg"
+  },
+  {
+    "name": "Vaibhav Arora",
+    "jersey": 22,
+    "role": "Bowler",
+    "country": "India",
+    "bio": "Vaibhav Arora is a right-arm pace bowler from India. Born on 14th December 1997, the Haryana-born cricketer began his professional career when he made his first-class debut for Himachal Pradesh against...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "11"
+      },
+      {
+        "k": "Wickets",
+        "v": "11"
+      },
+      {
+        "k": "Econ",
+        "v": "10.26"
+      }
+    ],
+    "image": "images/vaibhav-arora.jpg"
+  },
+  {
+    "name": "Saurabh Dubey",
+    "jersey": 32,
+    "role": "Bowler",
+    "country": "India",
+    "bio": "A developing bowler working his way into the squad, adding depth and rotational options to the franchise's fast bowling reserves.",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "4"
+      },
+      {
+        "k": "Wickets",
+        "v": "5"
+      },
+      {
+        "k": "Econ",
+        "v": "8.26"
+      }
+    ],
+    "image": "images/saurabh-dubey.jpg"
+  },
+  {
+    "name": "Blessing Muzarabani",
+    "jersey": 85,
+    "role": "Bowler",
+    "country": "Zimbabwe",
+    "bio": "A tall right-arm fast bowler offering menacing bounce and pace. He has been a consistent wicket-taker and brings an aggressive edge to the bowling lineup.",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "2"
+      },
+      {
+        "k": "Wickets",
+        "v": "4"
+      },
+      {
+        "k": "Econ",
+        "v": "10.71"
+      }
+    ],
+    "image": "images/blessing-muzarabani.jpg"
+  },
+  {
+    "name": "Navdeep Saini",
+    "jersey": 96,
+    "role": "Bowler",
+    "country": "India",
+    "bio": "Son of a driver hailing from Haryana, Navdeep is a dedicated right-arm pacer who represents Delhi in the domestic circuit and has been a valuable player for them in recent years. Saini made headlines in the 2017...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "2"
+      },
+      {
+        "k": "Wickets",
+        "v": "0"
+      },
+      {
+        "k": "Econ",
+        "v": "12.33"
+      }
+    ],
+    "image": "images/navdeep-saini.jpg"
+  },
+  {
+    "name": "Rahul Tripathi",
+    "jersey": 52,
+    "role": "Batter",
+    "country": "India",
+    "bio": "Rahul Tripathi is a flamboyant right-handed batter with almost all the shots in the book one can ask for. His ability to keep the game moving and be busy at the crease is one aspect that makes him stand out.",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "0"
+      },
+      {
+        "k": "Runs",
+        "v": "0"
+      },
+      {
+        "k": "S/R",
+        "v": "0"
+      }
+    ],
+    "image": "images/rahul-tripathi.jpg"
+  },
+  {
+    "name": "Sarthak Ranjan",
+    "jersey": 10,
+    "role": "Batter",
+    "country": "India",
+    "bio": "A powerful top-order batter with a fearless approach, Sarthak Ranjan has carved a path through persistence and late recognition in Indian domestic cricket. Known for his clean striking and attacking intent, the Delhi...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "0"
+      },
+      {
+        "k": "Runs",
+        "v": "0"
+      },
+      {
+        "k": "S/R",
+        "v": "0"
+      }
+    ],
+    "image": "images/sarthak-ranjan.jpg"
+  },
+  {
+    "name": "Rachin Ravindra",
+    "jersey": 8,
+    "role": "All-Rounder",
+    "country": "New Zealand",
+    "bio": "Rachin Ravindra is an exciting cricketer from New Zealand who quickly made a name for himself on the international stage. His journey from the streets of Wellington to a sensational World Cup debut is a...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "0"
+      },
+      {
+        "k": "Runs",
+        "v": "0"
+      },
+      {
+        "k": "Wickets",
+        "v": "0"
+      }
+    ],
+    "image": "images/rachin-ravindra.jpg"
+  },
+  {
+    "name": "Daksh Kamra",
+    "jersey": 33,
+    "role": "All-Rounder",
+    "country": "India",
+    "bio": "Mystery spinners have increasingly become valuable assets in the T20 era, and Daksh Kamra is one of the latest young talents attempting to make a mark with his craft. Hailing from Hisar in Haryana, Kamra is...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "0"
+      },
+      {
+        "k": "Runs",
+        "v": "0"
+      },
+      {
+        "k": "Wickets",
+        "v": "0"
+      }
+    ],
+    "image": "images/daksh-kamra.jpg"
+  },
+  {
+    "name": "Luvnith Sisodia",
+    "jersey": 14,
+    "role": "Wicketkeeper",
+    "country": "India",
+    "bio": "Luvnith Sisodia, born and brought up in Bangalore, Karnataka, is a dynamic young cricketer making waves with his aggressive left-handed batting and exceptional wicketkeeping skills. His remarkable talent has drawn...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "0"
+      },
+      {
+        "k": "Runs",
+        "v": "0"
+      },
+      {
+        "k": "Catches",
+        "v": "0"
+      }
+    ],
+    "image": "images/luvnith-sisodia.jpg"
+  },
+  {
+    "name": "Prashant Solanki",
+    "jersey": 44,
+    "role": "Bowler",
+    "country": "India",
+    "bio": "Prashant Solanki is a right-arm leg-break bowler hailing from Mumbai. He was born on February 22, 2000 in Jodhpur, Rajasthan. He is a state-level cricket player representing the Mumbai team in state-level cricket...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "0"
+      },
+      {
+        "k": "Wickets",
+        "v": "0"
+      },
+      {
+        "k": "Econ",
+        "v": "0.00"
+      }
+    ],
+    "image": "images/prashant-solanki.jpg"
+  },
+  {
+    "name": "Umran Malik",
+    "jersey": 24,
+    "role": "Bowler",
+    "country": "India",
+    "bio": "Umran Malik is a remarkable right-arm fast bowler hailing from Jammu, India, celebrated for his incredible speed on the cricket field. Rising through the competitive cricket circuits of Jammu and Kashmir...",
+    "stats": [
+      {
+        "k": "Matches",
+        "v": "0"
+      },
+      {
+        "k": "Wickets",
+        "v": "0"
+      },
+      {
+        "k": "Econ",
+        "v": "0.00"
+      }
+    ],
+    "image": "images/umran-malik.jpg"
+  }
+]

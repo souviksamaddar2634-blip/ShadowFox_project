@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KKR – Korbo Lorbo Jeetbo Re!</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Welcome to the ultimate fan hub for Kolkata Knight Riders (KKR). Get the latest 2026 match schedules, player rosters, statistics, news updates, and interact in the Fan Zone!" />
+  <meta name="keywords" content="KKR, Kolkata Knight Riders, IPL 2026, Eden Gardens, Rinku Singh, Sunil Narine, IPL Cricket" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet" />
+  
+  <!-- Modular Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor Elements -->
+  <div id="custom-cursor-dot"></div>
+  <div id="custom-cursor-outline"></div>
+
+  <!-- Background Animated Particle Canvas -->
+  <canvas id="bg"></canvas>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress"></div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-brand" id="navBrandLink">
+      <img src="logo.png" alt="KKR Logo" class="nav-logo" />
+      <span class="nav-brand-text">Knight Riders</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#schedule" id="navSchedule">Schedule</a></li>
+      <li><a href="#squad" id="navSquad">Squad</a></li>
+      <li><a href="#legends" id="navLegends">Legends</a></li>
+      <li><a href="#stats" id="navStats">Stats</a></li>
+      <li><a href="#news" id="navNews">News</a></li>
+      <li><a href="#fan-zone" id="navFanZone">Fan Zone</a></li>
+      <li><a href="#booking" id="navBooking">Tickets</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">🏏 IPL 2026 · Kolkata Knight Riders</p>
+      <h1 class="hero-title">
+        KORBO<br>
+        <span class="outline">LORBO</span><br>
+        JEETBO!
+      </h1>
+      <p class="hero-sub">The purple army marches. Three-time champions, one undying fire. Follow our 2026 journey, squad details, stats, and cheer with the Purple Army.</p>
+      <div class="hero-ctas">
+        <a href="#schedule" class="btn-primary" id="heroScheduleBtn">Match Schedule</a>
+        <a href="#squad" class="btn-outline" id="heroSquadBtn">Meet the Squad</a>
+      </div>
+    </div>
+
+    <!-- Decorative SVG Badge -->
+    <div class="hero-badge" id="heroBadge">
+      <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="bg-grad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#5a0099" stop-opacity="0.8"/>
+            <stop offset="100%" stop-color="#0a0014" stop-opacity="0.4"/>
+          </radialGradient>
+          <filter id="glow">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <!-- Outer ring -->
+        <circle cx="150" cy="150" r="145" fill="url(#bg-grad)" stroke="#F5C518" stroke-width="2" opacity="0.75"/>
+        <!-- Inner rings -->
+        <circle cx="150" cy="150" r="125" fill="none" stroke="#F5C518" stroke-width="0.5" opacity="0.3"/>
+        <circle cx="150" cy="150" r="105" fill="none" stroke="#F5C518" stroke-width="0.5" opacity="0.2"/>
+        <!-- KKR Logo image in SVG -->
+        <image href="logo.png" x="85" y="65" width="130" height="130" opacity="0.95" />
+        <!-- Trophy icons -->
+        <text x="75"  y="215" text-anchor="middle" font-size="28">🏆</text>
+        <text x="150" y="225" text-anchor="middle" font-family="'Bebas Neue', sans-serif" font-size="12" fill="#c9a010" letter-spacing="3" opacity="0.9">3X CHAMPIONS</text>
+        <text x="225" y="215" text-anchor="middle" font-size="28">🏆</text>
+        <!-- Star dots -->
+        <circle cx="150" cy="52" r="4" fill="#F5C518" opacity="0.8"/>
+        <circle cx="248" cy="150" r="4" fill="#F5C518" opacity="0.8"/>
+        <circle cx="52"  cy="150" r="4" fill="#F5C518" opacity="0.8"/>
+        <circle cx="150" cy="248" r="4" fill="#F5C518" opacity="0.8"/>
+      </svg>
+    </div>
+
+    <!-- Hero Stats Strip (Updated to 3 championships and 2026 data) -->
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-num">3</span>
+        <span class="hero-stat-lbl">IPL Titles</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">138</span>
+        <span class="hero-stat-lbl">Matches Won</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">25</span>
+        <span class="hero-stat-lbl">Squad Size</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">1.8CR+</span>
+        <span class="hero-stat-lbl">Fans Worldwide</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NEWS TICKER ========== -->
+  <div class="ticker-wrap">
+    <div class="ticker-inner" id="tickerInner">
+      <span class="ticker-item">🏏 IPL 2026 <span>KKR finishes their campaign in 7th spot with 13 points</span></span>
+      <span class="ticker-item">⚡ LEADERSHIP <span>Ajinkya Rahane leads and Rinku Singh serves as vice-captain</span></span>
+      <span class="ticker-item">🔥 LEGEND <span>Sunil Narine completes 14 stellar years with KKR</span></span>
+      <span class="ticker-item">📊 STATS <span>Varun Chakravarthy leads bowling charts with 18 wickets</span></span>
+      <span class="ticker-item">🎤 QUOTE <span>"Eden Gardens will always be our absolute fortress"</span></span>
+      <span class="ticker-item">🏏 IPL 2026 <span>KKR finishes their campaign in 7th spot with 13 points</span></span>
+      <span class="ticker-item">⚡ LEADERSHIP <span>Ajinkya Rahane leads and Rinku Singh serves as vice-captain</span></span>
+      <span class="ticker-item">🔥 LEGEND <span>Sunil Narine completes 14 stellar years with KKR</span></span>
+      <span class="ticker-item">📊 STATS <span>Varun Chakravarthy leads bowling charts with 18 wickets</span></span>
+  </div>
+
+  <!-- ========== MATCH SCHEDULE SECTION ========== -->
+  <section id="schedule" class="section-wrap">
+    <p class="section-label reveal">Match Schedule</p>
+    <h2 class="section-title reveal reveal-d1">IPL 2026 <span class="gold">Fixtures</span></h2>
+    <div class="divider reveal reveal-d2"></div>
+
+    <!-- Match Filters -->
+    <div class="filter-tabs reveal reveal-d3" id="scheduleFilters">
+      <button class="filter-tab active" data-status="all" id="btnFilterMatchAll">All Matches</button>
+      <button class="filter-tab" data-status="won" id="btnFilterMatchWon">Won</button>
+      <button class="filter-tab" data-status="lost" id="btnFilterMatchLost">Lost</button>
+      <button class="filter-tab" data-status="noresult" id="btnFilterMatchNoresult">No Result</button>
+    </div>
+
+    <!-- Schedule Grid (Rendered by JS) -->
+    <div class="schedule-grid"></div>
+  </section>
+
+  <!-- ========== SQUAD SECTION ========== -->
+  <section id="squad" class="section-wrap alt">
+    <p class="section-label reveal">2026 Season</p>
+    <h2 class="section-title reveal reveal-d1">Meet The <span class="gold">Squad</span></h2>
+    <div class="divider reveal reveal-d2"></div>
+
+    <!-- Squad Filters -->
+    <div class="filter-tabs reveal reveal-d3" id="squadFilters">
+      <button class="filter-tab active" data-role="all" id="btnFilterSquadAll">All Players</button>
+      <button class="filter-tab" data-role="batter" id="btnFilterSquadBatters">Batters</button>
+      <button class="filter-tab" data-role="bowler" id="btnFilterSquadBowlers">Bowlers</button>
+      <button class="filter-tab" data-role="all-rounder" id="btnFilterSquadAllrounders">All-Rounders</button>
+      <button class="filter-tab" data-role="wicketkeeper" id="btnFilterSquadWK">Wicketkeepers</button>
+    </div>
+
+    <!-- Squad Grid (Rendered by JS) -->
+    <div class="players-grid" id="playersGrid"></div>
+
+
+  </section>
+
+  <!-- ========== TEAM LEGENDS SECTION ========== -->
+  <section id="legends" class="section-wrap alt">
+    <p class="section-label reveal">KKR Hall of Fame</p>
+    <h2 class="section-title reveal reveal-d1">Team <span class="gold">Legends</span></h2>
+    <div class="divider reveal reveal-d2"></div>
+    
+    <!-- Legends Grid -->
+    <div class="legends-grid" id="legendsGrid">
+      <!-- Dynamic cards rendered by JS -->
+    </div>
+  </section>
+
+  <!-- ========== PLAYER DETAIL MODAL ========== -->
+  <div class="modal-overlay" id="playerModal">
+    <div class="modal-box" id="playerModalBox">
+      <button class="modal-close" id="modalClose" aria-label="Close Modal">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- ========== STATS & DASHBOARD ========== -->
+  <section id="stats" class="section-wrap">
+    <p class="section-label reveal">All-Time Records & History</p>
+    <h2 class="section-title reveal reveal-d1">Team <span class="gold">Statistics</span></h2>
+    <div class="divider reveal reveal-d2"></div>
+
+    <!-- Stats Blocks -->
+    <div class="stats-grid">
+      <div class="stat-block reveal" id="statBlockChamps">
+        <div class="stat-icon">🏆</div>
+        <span class="stat-num">3</span>
+        <div class="stat-desc">IPL Championships</div>
+      </div>
+      <div class="stat-block reveal reveal-d1" id="statBlockMatches">
+        <div class="stat-icon">🏏</div>
+        <span class="stat-num">272</span>
+        <div class="stat-desc">Total Matches</div>
+      </div>
+      <div class="stat-block reveal reveal-d2" id="statBlockWins">
+        <div class="stat-icon">✅</div>
+        <span class="stat-num">138</span>
+        <div class="stat-desc">Matches Won</div>
+      </div>
+      <div class="stat-block reveal reveal-d3" id="statBlockWinPct">
+        <div class="stat-icon">📈</div>
+        <span class="stat-num">50.7%</span>
+        <div class="stat-desc">Win Percentage</div>
+      </div>
+      <div class="stat-block reveal reveal-d4" id="statBlockHighscore">
+        <div class="stat-icon">⚡</div>
+        <span class="stat-num">272/7</span>
+        <div class="stat-desc">Highest IPL Score</div>
+      </div>
+      <div class="stat-block reveal reveal-d5" id="statBlockRunrate">
+        <div class="stat-icon">🎯</div>
+        <span class="stat-num">15.5</span>
+        <div class="stat-desc">Avg Run Rate</div>
+      </div>
+      <div class="stat-block reveal" id="statBlockHome">
+        <div class="stat-icon">🏟️</div>
+        <span class="stat-num">Eden</span>
+        <div class="stat-desc">Home Ground</div>
+      </div>
+      <div class="stat-block reveal reveal-d1" id="statBlockExpBuy">
+        <div class="stat-icon">💰</div>
+        <span class="stat-num">₹24.75CR</span>
+        <div class="stat-desc">Record Buy (Starc)</div>
+      </div>
+    </div>
+
+    <!-- Season Performance Chart -->
+    <div style="margin-top:60px">
+      <h3 class="section-title reveal" style="font-size:1.6rem" id="perfChartTitle">Season <span class="gold">Performance</span></h3>
+      <div class="divider reveal reveal-d1"></div>
+      <div class="reveal reveal-d2" id="perfChartContainer">
+        <div id="perfChart"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NEWS SECTION ========== -->
+  <section id="news" class="section-wrap alt">
+    <p class="section-label reveal">Latest Updates</p>
+    <h2 class="section-title reveal reveal-d1">Team <span class="gold">News</span></h2>
+    <div class="divider reveal reveal-d2"></div>
+
+    <!-- News Grid (Rendered by JS) -->
+    <div class="news-grid"></div>
+  </section>
+
+  <!-- ========== CHANT MARQUEE STRIP ========== -->
+  <div class="chant-strip">
+    <div class="chant-inner">
+      <span class="chant-word">KORBO</span>
+      <span class="chant-word">✦</span>
+      <span class="chant-word">LORBO</span>
+      <span class="chant-word">✦</span>
+      <span class="chant-word">JEETBO</span>
+      <span class="chant-word">✦</span>
+      <span class="chant-word">RE!</span>
+      <span class="chant-word">✦</span>
+      <span class="chant-word">PURPLE ARMY</span>
+      <span class="chant-word">✦</span>
+      <span class="chant-word">KORBO</span>
+      <span class="chant-word">✦</span>
+      <span class="chant-word">LORBO</span>
+      <span class="chant-word">✦</span>
+      <span class="chant-word">JEETBO</span>
+      <span class="chant-word">✦</span>
+      <span class="chant-word">RE!</span>
+      <span class="chant-word">✦</span>
+      <span class="chant-word">PURPLE ARMY</span>
+      <span class="chant-word">✦</span>
+    </div>
+  </div>
+
+  <!-- ========== FAN ZONE SECTION ========== -->
+  <section id="fan-zone" class="section-wrap">
+    <p class="section-label reveal">Fan Engagement</p>
+    <h2 class="section-title reveal reveal-d1">The <span class="gold">Fan Zone</span></h2>
+    <div class="divider reveal reveal-d2"></div>
+
+    <!-- 2x2 Grid for Engagement Features -->
+    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:40px; align-items:start;" id="fanZoneGrid">
+      
+      <!-- Feature 1: MVP Poll -->
+      <div class="reveal" id="gridPoll">
+        <h3 style="font-family:'Bebas Neue',sans-serif; font-size:1.45rem; letter-spacing:2px; margin-bottom:8px; color:var(--text-muted)">
+          MVP of the 2026 Season 🗳️
+        </h3>
+        <div class="poll-box">
+          <div class="poll-question">Who was KKR's most valuable player in 2026?</div>
+          <div class="poll-options" id="pollOptions"></div>
+          <p class="poll-total" id="pollTotal">Loading...</p>
+        </div>
+      </div>
+
+      <!-- Feature 2: Fan Cheer Wall (Interactive Local Storage Board) -->
+      <div class="reveal reveal-d1" id="gridWall">
+        <h3 style="font-family:'Bebas Neue',sans-serif; font-size:1.45rem; letter-spacing:2px; margin-bottom:8px; color:var(--text-muted)">
+          Cheer Board 📣
+        </h3>
+        <div class="poll-box">
+          <div id="fanWall"></div>
+          
+          <div class="fan-wall-inputs">
+            <div class="fan-wall-row">
+              <input id="fanNameInput" class="fan-input-field" type="text" placeholder="Name" maxlength="15" />
+              <input id="fanMsgInput" class="fan-input-field" type="text" placeholder="Cheer message (e.g. Korbo Lorbo Jeetbo!)" maxlength="60" />
+            </div>
+            <button id="fanPost" class="btn-primary" style="padding: 10px 20px; font-size: 0.85rem;">Cheer!</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 3: KKR Trivia Quiz -->
+      <div class="reveal reveal-d2" id="gridQuiz">
+        <h3 style="font-family:'Bebas Neue',sans-serif; font-size:1.45rem; letter-spacing:2px; margin-bottom:8px; color:var(--text-muted)">
+          KKR Trivia Quiz 🧠
+        </h3>
+        <div class="poll-box">
+          <div id="triviaQuizContainer"></div>
+        </div>
+      </div>
+
+      <!-- Feature 4: Interactive Chant Box -->
+      <div class="reveal reveal-d3" id="gridChant">
+        <h3 style="font-family:'Bebas Neue',sans-serif; font-size:1.45rem; letter-spacing:2px; margin-bottom:8px; color:var(--text-muted)">
+          Chant Generator 🥁
+        </h3>
+        <div class="poll-box" id="chantBox">
+          <p style="color:var(--text-muted); line-height:1.6; font-size:0.95rem; margin-bottom:14px">
+            Join the stadium roar! Hit the button below to chant along with KKR fans. Rhythmic waves will pulse in sync with the chants.
+          </p>
+          <div class="chant-waves" id="chantWaves">
+            <div class="chant-wave-bar"></div>
+            <div class="chant-wave-bar"></div>
+            <div class="chant-wave-bar"></div>
+            <div class="chant-wave-bar"></div>
+            <div class="chant-wave-bar"></div>
+            <div class="chant-wave-bar"></div>
+            <div class="chant-wave-bar"></div>
+            <div class="chant-wave-bar"></div>
+            <div class="chant-wave-bar"></div>
+            <div class="chant-wave-bar"></div>
+          </div>
+          <button id="playChantBtn" class="btn-primary" style="padding: 12px 24px; width: 100%;">Cheer KKR Chant!</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Social Links Row -->
+    <div style="margin-top: 40px; text-align: center;" class="reveal">
+      <h4 style="font-family:'Bebas Neue',sans-serif; font-size:1.2rem; letter-spacing:2px; margin-bottom:12px; color:var(--text-muted)">Follow Official Channels</h4>
+      <div class="social-row" style="justify-content: center;">
+        <a href="https://twitter.com/KKRiders" target="_blank" class="social-btn" id="socialTwitter">
+          <svg viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg>
+          Twitter / X
+        </a>
+        <a href="https://instagram.com/kkriders" target="_blank" class="social-btn" id="socialInstagram">
+          <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          Instagram
+        </a>
+        <a href="https://facebook.com/KolkataKnightRiders" target="_blank" class="social-btn" id="socialFacebook">
+          <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TICKET BOOKING SECTION ========== -->
+  <section id="booking" class="section-wrap alt">
+    <p class="section-label reveal">Match Day Experience</p>
+    <h2 class="section-title reveal reveal-d1">Eden Gardens <span class="gold">Seat Booker</span></h2>
+    <div class="divider reveal reveal-d2"></div>
+    
+    <div class="booking-grid reveal reveal-d3">
+      <!-- Stadium Map Layout -->
+      <div class="stadium-layout-box">
+        <p style="margin-bottom: 20px; color: var(--text-muted); font-size: 0.9rem;">Select a stand from the Eden Gardens map:</p>
+        <div class="stadium-map">
+          <div class="stadium-pitch">EDEN PITCH</div>
+          <div class="stadium-stand stand-north" data-stand="North Stand" data-price="1500" id="standNorth">North Stand</div>
+          <div class="stadium-stand stand-east" data-stand="East Stand" data-price="2500" id="standEast">East Stand</div>
+          <div class="stadium-stand stand-south" data-stand="South Stand" data-price="1200" id="standSouth">South Stand</div>
+          <div class="stadium-stand stand-west" data-stand="West Stand" data-price="2000" id="standWest">West Stand</div>
+        </div>
+      </div>
+      
+      <!-- Booking Panel / Virtual Ticket Container -->
+      <div class="booking-panel" id="bookingPanel">
+        <div class="poll-box" id="bookingForm" style="height: 100%; display: flex; flex-direction: column; justify-content: center; margin-bottom: 0;">
+          <h3 style="font-family:'Bebas Neue',sans-serif; font-size:1.5rem; letter-spacing:2px; margin-bottom:12px; color:var(--kkr-gold)">Book Your Seat</h3>
+          <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:16px;">Select a stand from the map to view pricing and confirm booking.</p>
+          
+          <div class="fan-wall-inputs" style="margin-bottom: 20px;">
+            <input id="bookingName" class="fan-input-field" type="text" placeholder="Enter Full Name" />
+            <div style="display:flex; justify-content: space-between; font-family:'Rajdhani',sans-serif; font-size: 1rem; font-weight:600; padding: 10px 0; border-bottom:1px solid var(--border)">
+              <span style="color:var(--text-muted)">Selected Stand:</span>
+              <span id="bookingSelectedStand" style="color:#fff">-</span>
+            </div>
+            <div style="display:flex; justify-content: space-between; font-family:'Rajdhani',sans-serif; font-size: 1rem; font-weight:600; padding: 10px 0; border-bottom:1px solid var(--border)">
+              <span style="color:var(--text-muted)">Price:</span>
+              <span id="bookingPrice" style="color:var(--kkr-gold)">-</span>
+            </div>
+          </div>
+          
+          <button id="btnBookTicket" class="btn-primary" style="padding: 12px 24px; width: 100%;" disabled>Select Stand First</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="footer-top">
+      <div>
+        <img src="logo.png" alt="KKR Logo" class="footer-logo" />
+        <p class="footer-tagline">The unofficial fan hub of Kolkata Knight Riders — built with purple blood and golden passion. Not affiliated with the official IPL KKR franchise.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Navigate</div>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#squad">Squad</a></li>
+          <li><a href="#legends">Legends</a></li>
+          <li><a href="#stats">Stats</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#fan-zone">Fan Zone</a></li>
+          <li><a href="#booking">Tickets</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Quick Facts</div>
+        <ul class="footer-links">
+          <li><a href="#">Founded: 2008</a></li>
+          <li><a href="#">Titles: 2012, 2014, 2024</a></li>
+          <li><a href="#">Home: Eden Gardens</a></li>
+          <li><a href="#">Capacity: 66,000</a></li>
+          <li><a href="#">Colors: Purple & Gold</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Follow KKR</div>
+        <ul class="footer-links">
+          <li><a href="https://twitter.com/KKRiders" target="_blank">Twitter / X</a></li>
+          <li><a href="https://instagram.com/kkriders" target="_blank">Instagram</a></li>
+          <li><a href="https://facebook.com/KolkataKnightRiders" target="_blank">Facebook</a></li>
+          <li><a href="https://www.youtube.com/user/kkriders" target="_blank">YouTube</a></li>
+          <li><a href="https://www.kkr.in" target="_blank">Official Website</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 KKR Fan Site · Made with 💜 for the Purple Army · Not officially affiliated with <a href="https://www.kkr.in" target="_blank">Kolkata Knight Riders</a></p>
+      <p class="footer-copy" style="color:var(--kkr-gold)">KORBO LORBO JEETBO RE! 🏆</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="btt" title="Back to top" aria-label="Scroll to Top">↑</button>
+
+  <!-- Script Modules -->
+  <script src="app.js"></script>
+</body>
+</html>

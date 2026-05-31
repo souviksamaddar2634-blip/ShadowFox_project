@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://kkr-fan-hub.onrender.com/api/$1"
+    },
+    {
+      "src": "/ws/(.*)",
+      "dest": "https://kkr-fan-hub.onrender.com/ws/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/$1"
+    }
+  ]
+}

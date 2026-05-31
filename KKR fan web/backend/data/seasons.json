@@ -1,0 +1,13 @@
+[
+  { "year": "2012", "w": 13, "l": 3, "title": true },
+  { "year": "2013", "w": 8, "l": 8, "title": false },
+  { "year": "2014", "w": 11, "l": 3, "title": true },
+  { "year": "2018", "w": 6, "l": 8, "title": false },
+  { "year": "2019", "w": 6, "l": 8, "title": false },
+  { "year": "2021", "w": 7, "l": 7, "title": false },
+  { "year": "2022", "w": 6, "l": 8, "title": false },
+  { "year": "2023", "w": 6, "l": 8, "title": false },
+  { "year": "2024", "w": 9, "l": 5, "title": true },
+  { "year": "2025", "w": 8, "l": 6, "title": false },
+  { "year": "2026", "w": 6, "l": 7, "title": false }
+]

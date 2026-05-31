@@ -1,0 +1,112 @@
+[
+  {
+    "q": "Who faced the very first delivery in IPL history during the inaugural 2008 match?",
+    "opts": [
+      "Brendon McCullum",
+      "Sourav Ganguly",
+      "Sachin Tendulkar",
+      "Virender Sehwag"
+    ],
+    "ans": 1,
+    "exp": "Correct! Sourav Ganguly faced the first-ever IPL ball on April 18, 2008, bowled by RCB's Praveen Kumar."
+  },
+  {
+    "q": "In which years has Kolkata Knight Riders won the IPL Championship?",
+    "opts": [
+      "2010, 2012, 2018",
+      "2012, 2014, 2021",
+      "2012, 2014, 2024",
+      "2008, 2014, 2024"
+    ],
+    "ans": 2,
+    "exp": "Awesome! KKR lifted the trophy in 2012, 2014 (both under Gautam Gambhir), and in 2024."
+  },
+  {
+    "q": "What is the name of KKR's official anthem?",
+    "opts": [
+      "Ami KKR",
+      "Korbo Lorbo Jeetbo Re",
+      "Purple Army March",
+      "Roar of the Knights"
+    ],
+    "ans": 1,
+    "exp": "Korbo Lorbo Jeetbo Re (We will do, we will fight, we will win) has been the iconic anthem since 2008!"
+  },
+  {
+    "q": "KKR holds the record for the longest winning streak by any Indian T20 team. How many consecutive matches did they win in 2014?",
+    "opts": [
+      "10 Matches",
+      "12 Matches",
+      "14 Matches",
+      "16 Matches"
+    ],
+    "ans": 2,
+    "exp": "Unbelievable but true! KKR won 14 matches in a row (9 in the IPL and 5 in the Champions League T20) during their golden run in 2014."
+  },
+  {
+    "q": "Who scored a legendary 158* in the very first match of the IPL in 2008?",
+    "opts": [
+      "Sourav Ganguly",
+      "Chris Gayle",
+      "Jacques Kallis",
+      "Brendon McCullum"
+    ],
+    "ans": 3,
+    "exp": "Brendon McCullum smashed 158 not out off just 73 balls, setting the IPL on fire on night one."
+  },
+  {
+    "q": "Which KKR legend hit 5 consecutive sixes in the final over against Gujarat Titans in 2023 to win an impossible match?",
+    "opts": [
+      "Andre Russell",
+      "Rinku Singh",
+      "Sunil Narine",
+      "Venkatesh Iyer"
+    ],
+    "ans": 1,
+    "exp": "Rinku Singh did the unthinkable, hitting 5 sixes off Yash Dayal when KKR needed 28 runs off 5 balls!"
+  },
+  {
+    "q": "Who is the all-time leading wicket-taker for Kolkata Knight Riders?",
+    "opts": [
+      "Andre Russell",
+      "Piyush Chawla",
+      "Sunil Narine",
+      "Varun Chakaravarthy"
+    ],
+    "ans": 2,
+    "exp": "Sunil Narine! The mystery spinner has been KKR's most lethal weapon since he joined the squad in 2012."
+  },
+  {
+    "q": "The name 'Kolkata Knight Riders' was inspired by which famous 1980s American television show?",
+    "opts": [
+      "Knight Rider",
+      "The A-Team",
+      "Miami Vice",
+      "Airwolf"
+    ],
+    "ans": 0,
+    "exp": "The franchise name was a direct nod to the popular David Hasselhoff show 'Knight Rider'."
+  },
+  {
+    "q": "Before switching to their iconic Purple and Gold in 2010, what were KKR's original team colors?",
+    "opts": [
+      "Red and Gold",
+      "Black and Gold",
+      "Blue and Silver",
+      "Green and Gold"
+    ],
+    "ans": 1,
+    "exp": "KKR originally wore Black and Gold. The black represented the Goddess Kali, and the gold represented the spirit of life."
+  },
+  {
+    "q": "Which KKR player holds the record for winning the IPL 'Most Valuable Player' (MVP) award three times?",
+    "opts": [
+      "Gautam Gambhir",
+      "Andre Russell",
+      "Sunil Narine",
+      "Jacques Kallis"
+    ],
+    "ans": 2,
+    "exp": "Sunil Narine is the ultimate MVP! He won the prestigious award in 2012, 2018, and 2024."
+  }
+]
